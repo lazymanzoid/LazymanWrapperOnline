@@ -1,0 +1,45 @@
+{
+  "_args": [
+    [
+      "httpz@github:octanuary/httpz",
+      "C:\\Users\\Thunderzapper\\Desktop\\wrapper-offline"
+    ]
+  ],
+  "_from": "httpz@github:octanuary/httpz",
+  "_id": "httpz@git+ssh://git@github.com/octanuary/httpz.git#aa2b722fb966d32ec55c3a5ea2caaeebe279f4bc",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/httpz",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "httpz@github:octanuary/httpz",
+    "name": "httpz",
+    "escapedName": "httpz",
+    "rawSpec": "github:octanuary/httpz",
+    "saveSpec": "github:octanuary/httpz",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/octanuary/httpz.git#aa2b722fb966d32ec55c3a5ea2caaeebe279f4bc",
+  "_spec": "github:octanuary/httpz",
+  "_where": "C:\\Users\\Thunderzapper\\Desktop\\wrapper-offline",
+  "author": "",
+  "description": "HTTPz (htt-p**easy**) is a lightweight HTTP framework for Node.js.",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.3"
+  },
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "httpz",
+  "scripts": {
+    "start": "node example/index.js",
+    "test": "mocha"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
+}
